@@ -180,6 +180,14 @@ body{
 
 }
 
+  /* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+
+
 .btn-box .btn:nth-child(2) {
    background: transparent;
    color: var(--main-color);
